@@ -1,0 +1,9 @@
+---
+  el:
+    hosts:
+      alpine:
+        ansible_connection: docker
+  deb:
+    hosts:
+      debian:
+        ansible_connection: docker
