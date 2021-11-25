@@ -9,7 +9,7 @@ __ansible-vault encrypt__
 4. Какой командой можно расшифровать файл?
 __ansible-vault decrypt__
 5. Можно ли посмотреть содержимое зашифрованного файла без команды расшифровки файла? Если можно, то как?
-__запустить playbook с зашифрованным файлом с параметром --ask-vault-pass__
+__если есть пароль, запустить команду `ansible-vault view %encrypted-file-name%` и ввести пароль__
 6. Как выглядит команда запуска `playbook`, если переменные зашифрованы?
 __ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass__
 7. Как называется модуль подключения к host на windows?
